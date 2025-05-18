@@ -14,7 +14,8 @@
 - [Workshops and Talks](#workshops-and-talks)
 - [Paper Collection](#paper-collection)
 - [Benchmarks and Datasets](#benchmarks-and-datasets)
-- [Competitions / Challenges](#competitions--challenges) 
+- [Competitions / Challenges](#competitions--challenges)
+- [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 - [Citation](#citation)
@@ -163,6 +164,20 @@ We list key challenges from a wide span of candidate concerns, as well as trendi
 - [CARLA Autonomous Driving Challenge 2020](https://ml4ad.github.io/2020/#challenge), Machine Learning for Autonomous Driving, NeurIPS 2020
 - [Learn-to-Race Autonomous Racing Virtual Challenge](https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge), 2022
 - [INDY Autonomous Challenge](https://www.indyautonomouschallenge.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Examples
+
+This repository provides a minimal [CARLA](https://carla.org) example in
+[`examples/`](examples/) demonstrating how to build an end-to-end driving
+pipeline. The script `carla_e2e_pipeline.py` shows how to:
+
+1. Collect data with the CARLA autopilot.
+2. Train a small convolutional network via imitation learning.
+3. Deploy the trained model in closed loop.
+
+See [`examples/README.md`](examples/README.md) for usage details.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
   
